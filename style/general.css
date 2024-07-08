@@ -55,7 +55,7 @@
     justify-content: center;
     text-decoration: none;
     align-items: center;
-    width: 18rem;
+    width: 22rem;
     height: 5rem;
     font-size: 1.8rem;
     color: #000;
@@ -67,6 +67,11 @@
     overflow: hidden;
     z-index: 1;
     transition: 0.3s ease-in-out;
+  }
+
+  .-btn--icon{
+    padding-right:5px ;
+    font-size: 3rem;
   }
 
   .-btn--primary:hover{
@@ -229,9 +234,14 @@
   }
 
   .-btn--primary{
-    width: 14rem;
+    width: 16rem;
     font-size: 1.4rem;
     height: 3.5rem;
+  }
+
+  .-btn--icon{
+    padding-right:3px ;
+    font-size: 1.6rem;
   }
 }  
 

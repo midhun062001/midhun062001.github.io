@@ -163,6 +163,8 @@ body {
   margin-bottom: 2.2rem;
 }
 
+
+
 /*******************************/
 /************ AboutMe *************/
 /*******************************/
@@ -622,9 +624,8 @@ body {
   }
 
   .hero {
-    background: url(../img/mobile.png) no-repeat;
     background-size: cover;
-    background-position: right -40px bottom 0;
+    background-position: right -80px bottom 0;
     background-attachment: fixed;
 
   }
@@ -671,7 +672,19 @@ body {
   
 }
 
+@media(width<=700px){
+
+ 
+}
+
 @media(width<=600px){
+  .hero {
+    background: url(../img/mobile.png) no-repeat;
+    background-size: cover;
+    background-position: right -60px bottom 0;
+    background-attachment: fixed;
+  
+  }
   .header{
     padding:2px 30px
    }
